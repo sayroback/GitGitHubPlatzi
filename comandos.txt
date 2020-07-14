@@ -1,0 +1,29 @@
+  configurar identificacion de Git
+git config --global user.email "user@ mail. com"
+git config --global user.name "Your Name"
+
+  Comandos
+(git init)
+  crear repositorio
+(git status)
+  ver el estatus del proyecto
+(git add nombre.txt)
+  trakear (pasar a Staging (Preparacion)) archivos
+(git add .)
+  trakear (pasar a Staging (Preparacion)) todo
+(git rm --cached nombre.txt)
+  quitar el track
+(git commit -m "mensaje")
+  enviar cambios al repositorio
+(git log nombre.txt)
+  ver la historia el archivo
+(git show nombre.txt)
+  ver los ultimos cambios comparados con la version previa
+(git diff tag1 tag2)
+  ver diferencias entre versiones
+
+
+
+  En VIM
+escribimos precionando (Esc + i )
+salimos con (Esc + shift + z + z)
