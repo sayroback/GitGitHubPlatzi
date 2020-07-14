@@ -1,10 +1,14 @@
-(git log --stat)
-// Practica para la fusion de ramas
   Ramas (branches)
 (git branch nombreDeLaRama)
   Crear una rama
 (git checkout nombreDeLaRama)
   mover a la rama
-//Practica de fusion de ramas
 (git merge nombreDeLaRama)
   fusiona las ramas
+//Practica de fusion de ramas:
+  Antes de intentar fusionar ramas debemos de hacer commit
+  si existe un conflicto Git agregara las lineas que estan chocando
+  con señalamientos de lo que esta en cada rama.
+  Manualmente se quitan las señales y se elige que cambio concervar
+  en visual studio aparecen opciones arriba de estas lineas y ponemos
+  elegir que cambios queremos concerbar con solo un click
