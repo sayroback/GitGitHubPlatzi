@@ -22,4 +22,8 @@
 (git push origin master)
   mandar los cambios al repositorio remoto
 
-//Prueba de Conexion a GitHub con SSh
+//Prueba de Conexion a GitHub con SSH
+
+Siempre antes de mandar el master local al repositorio remoto
+usamos pull 
+y ahora ya podemos hacer push
