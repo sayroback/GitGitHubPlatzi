@@ -1,5 +1,5 @@
 (git log --stat)
-
+// Practica para la fusion de ramas
   Ramas (branches)
 (git branch nombreDeLaRama)
   Crear una rama
