@@ -25,5 +25,5 @@
 //Prueba de Conexion a GitHub con SSH
 
 Siempre antes de mandar el master local al repositorio remoto
-usamos pull 
+usamos pull
 y ahora ya podemos hacer push

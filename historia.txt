@@ -21,3 +21,9 @@ en arbolito encontramos identificadores de los commit para agregarle un tag usam
 
 (git show-ref --tags)
 Para mostar que Tags tenemos en nuestro proyecto
+
+(git tag -d nombreDelTag)
+eliminar un tag en local
+
+(git push origin :refs/tags/nombreDelTag)
+eliminar un tag en remoto
