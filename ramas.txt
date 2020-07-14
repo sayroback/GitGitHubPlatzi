@@ -4,5 +4,7 @@
 (git checkout nombreDeLaRama)
   mover a la rama
 //Practica de fusion de ramas
+(git merge nombreDeLaRama)
+  fusiona las ramas
 
 
