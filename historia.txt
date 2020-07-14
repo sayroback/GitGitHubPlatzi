@@ -1,5 +1,8 @@
-Esta es la historia de Juan Halley
+ mostrar graficamente la actividad de los cambios en el proyecto
 
-Halley tiene 24 años y nacio en Mexico
-
-Hoy hablaremos de su historia
+(git log --all)
+  nos mostrara todo lo ocurrido historicamente
+(git log --all --graph)
+  Nos muestar graficamente como han funcionado las ramas
+(git log --all --graph --decorate --online)
+  lo mismo pero mas bonito
