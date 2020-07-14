@@ -22,6 +22,17 @@ git config --global user.name "Your Name"
 (git diff tag1 tag2)
   ver diferencias entre versiones
 
+  Trabajando con un repositorio remoto
+(git clone url)
+  Clona un repositorio al directorio de trabajo y al repositorio local, con todo el historico de cambios.
+(git push)
+  enviar cambios al repositorio remoto
+(git fetch)
+  traer actualizacion al repositorio local, pero no al directorio de trabajo
+(git merge)
+  traer la actializacion ya pedida con fetch al directorio de trabajo
+(git pull)
+  Fusiona los comandos fetch y merge
 
 
   En VIM
