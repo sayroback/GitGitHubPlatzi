@@ -15,3 +15,5 @@
 
 (git remote add origin https://github.com/sayroback/CursoGitGitHubPlatzi.git)
   Agregar un origen remoto de nuestros archivos
+(git push origin master)
+  mandar los cambios al repositorio remoto
