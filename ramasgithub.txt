@@ -1,2 +1,6 @@
     Manejo de ramas en GitHub
 (git config -l)
+para confirmar que ya tengamos nuestro usuario y email correctos
+
+(git clone URL)
+Traernos el repositorio remoto al local
