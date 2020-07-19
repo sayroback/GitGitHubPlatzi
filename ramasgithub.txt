@@ -4,3 +4,7 @@ para confirmar que ya tengamos nuestro usuario y email correctos
 
 (git clone URL)
 Traernos el repositorio remoto al local
+
+(git push origin NOMBREdElARAMA)
+mandar los cambios de la rama al repositorio remoto
+
