@@ -15,6 +15,8 @@
 
 (git remote add origin https://github.com/sayroback/CursoGitGitHubPlatzi.git)
   Agregar un origen remoto de nuestros archivos
+   //origin puede llamrse como sea
+   //(git remote -v) nos muestra los origenes remotos que tenemos en el proyecto
 (git pull origin master)
   debemos mandar a llamar primero el repositorio remoto para poder hacer push
 (git pull origin master --allow-unrelated-histories)
