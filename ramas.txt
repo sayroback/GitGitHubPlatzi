@@ -1,4 +1,10 @@
   Ramas (branches)
+(git branch)
+  ver las ramas existentes
+(git show-branch) y (git show-branch --all)
+  ver la historia de las ramas
+(gitk)
+  muestra en un software toda la historia de las ramas
 (git branch nombreDeLaRama)
   Crear una rama
 (git checkout nombreDeLaRama)
