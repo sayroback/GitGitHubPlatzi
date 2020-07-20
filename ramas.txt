@@ -19,6 +19,17 @@
   en visual studio aparecen opciones arriba de estas líneas y podemos
   elegir qué cambios queremos conservar con solo un clic
 
+  Eliminar ramas
+(git branch -d nombre_rama)
+eliminar una rama de nuestro repositorio local
+(git branch -D nombre-rama)
+//En el caso de que esa rama contenga trabajos sin fusionar, el comando anterior nos devolverá un error:
+//error: The branch 'nombre-rama' is not an ancestor of your current HEAD.
+//If you are sure you want to delete it, run 'git branch -D nombre-rama'.
+//Si aún así queremos eliminar esa rama sustituir la d por una D mayuscula
+(git push origin :nombredelarama)
+  eliminar la rama en el repositorio remoto
+
 (git remote add origin https://github.com/sayroback/CursoGitGitHubPlatzi.git)
   Agregar un origen remoto de nuestros archivos
    //origin puede llamarse como sea
