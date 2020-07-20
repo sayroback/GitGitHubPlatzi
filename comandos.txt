@@ -1,45 +1,63 @@
-  configurar identificación de Git
-git config --global user.email "user@ mail. com"
-git config --global user.name "Your Name"
+  Configurar identificación de Git
+(git config --global user.email "user@ mail. com")
+(git config --global user.name "Your Name")
+
 
   Comandos
 (git init)
   crear repositorio
+
 (git status)
   ver el estatus del proyecto
+
 (git add nombre.txt)
   trakear (pasar a Staging (Preparación)) archivos
+
 (git add .)
   trakear (pasar a Staging (Preparación)) todo
+
 (git rm --cached nombre.txt)
   quitar el track
+
 (git commit -m "mensaje")
   enviar cambios al repositorio
+
 (git commit -am "comentario")
   Fusiona commit y add, pero solo funciona en archivos previamente trakeados.
+
 (git log nombre.txt)
   ver la historia el archivo
+
 (git show nombre.txt)
   ver los últimos cambios comparados con la versión previa
+
 (git diff tag1 tag2)
   ver diferencias entre versiones
-  
+
+
   Reset
 (git reset IDALCUALQUEREMOSVOLVER --soft)
   volvermos a los cambios en ese momento, sin eliminarlo del repositorio local
   solo del directorio de trabajo
+
 (git reset IDALCUALQUEREMOSVOLVER --hard)
   volvermos a los cambios en ese momento
 
+
   Trabajando con un repositorio remoto
+
 (git clone url)
   Clona un repositorio al directorio de trabajo y al repositorio local, con todo el historico de cambios.
+
 (git push)
   enviar cambios al repositorio remoto
+
 (git fetch)
   traer actualización al repositorio local, pero no al directorio de trabajo
+
 (git merge)
   traer la actualización ya pedida con fetch al directorio de trabajo
+
 (git pull)
   Fusiona los comandos fetch y merge
 
@@ -47,4 +65,3 @@ git config --global user.name "Your Name"
   En VIM
 escribimos presionando (Esc + i )
 salimos con (Esc + shift + z + z)
-

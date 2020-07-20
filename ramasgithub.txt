@@ -1,9 +1,9 @@
 Manejo de ramas en GitHub
 (git config -l)
-para confirmar que ya tengamos nuestro usuario y email correctos
+  Para confirmar que ya tengamos nuestro usuario y email correctos
 
 (git clone URL)
-Traernos el repositorio remoto al local
+  Traernos el repositorio remoto al local
 
 (git push origin NOMBREdElARAMA)
-mandar los cambios de la rama al repositorio remoto
+  Mandar los cambios de la rama al repositorio remoto

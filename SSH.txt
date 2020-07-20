@@ -1,22 +1,21 @@
 Configurar las llaves (PC --> GitHub)
 
-ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+(ssh-keygen -t rsa -b 4096 -C "youremail@example.com")
   Generar una llave SSH
-
 //Copiamos la llave publica
 
-eval $(ssh-agent -s)
-comprobamos que esté funcionando SSH (nesesario)
+(eval $(ssh-agent -s))
+  Comprobamos que esté funcionando SSH (nesesario)
 
-ssh-add ~/.ssh/id_rsa
-añadimos la llave privada
+(ssh-add ~/.ssh/id_rsa)
+  Añadimos la llave privada
 // ruta ~/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/halley/.ssh
 
 (git remote set-url origin URLDELREPOSITORIOGITHUB)
-  modificar la url del origin
+  Modificar la url del origin
 
 (git pull origin master)
-Traemos el repositorio remoto a la rama master
+  Traemos el repositorio remoto a la rama master
 
 (git push origin master)
-Mandamos el repositorio local al remoto //antes hacer commit a los cambios
+  Mandamos el repositorio local al remoto //antes hacer commit a los cambios
