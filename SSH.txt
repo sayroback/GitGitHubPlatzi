@@ -14,6 +14,10 @@ Configurar las llaves (PC --> GitHub)
 (git remote set-url origin URLDELREPOSITORIOGITHUB)
   Modificar la url del origin
 
+(git remote add upstream URL)
+  Añadimos el remote upstream para poder mantener actualizado
+  nuestro repositorio
+
 (git pull origin master)
   Traemos el repositorio remoto a la rama master
 
