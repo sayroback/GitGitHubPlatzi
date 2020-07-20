@@ -1,4 +1,4 @@
-    Manejo de ramas en GitHub
+Manejo de ramas en GitHub
 (git config -l)
 para confirmar que ya tengamos nuestro usuario y email correctos
 
@@ -7,4 +7,3 @@ Traernos el repositorio remoto al local
 
 (git push origin NOMBREdElARAMA)
 mandar los cambios de la rama al repositorio remoto
-
