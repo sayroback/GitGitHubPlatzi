@@ -11,7 +11,7 @@
   mover a la rama
 (git merge nombreDeLaRama)
   fusiona las ramas
-//Practica de fusion de ramas:
+//Practica de fusión de ramas:
   Antes de intentar fusionar ramas debemos de hacer commit
   sí existe un conflicto Git agregara las líneas que están chocando
   con señalamientos de lo que está en cada rama.
@@ -21,16 +21,16 @@
 
 (git remote add origin https://github.com/sayroback/CursoGitGitHubPlatzi.git)
   Agregar un origen remoto de nuestros archivos
-   //origin puede llamrse como sea
-   //(git remote -v) nos muestra los origenes remotos que tenemos en el proyecto
+   //origin puede llamarse como sea
+   //(git remote -v) nos muestra los orígenes remotos que tenemos en el proyecto
 (git pull origin master)
   debemos mandar a llamar primero el repositorio remoto para poder hacer push
 (git pull origin master --allow-unrelated-histories)
-  si no nos permite hacer pull podemos forzarlo con ese codigo
+  si no nos permite hacer pull podemos forzarlo con ese código
 (git push origin master)
   mandar los cambios al repositorio remoto
 
-//Prueba de Conexion a GitHub con SSH
+//Prueba de conexión a GitHub con SSH
 
 Siempre antes de mandar el master local al repositorio remoto
 usamos pull

@@ -37,9 +37,9 @@ git config --global user.name "Your Name"
 (git push)
   enviar cambios al repositorio remoto
 (git fetch)
-  traer actualizacion al repositorio local, pero no al directorio de trabajo
+  traer actualización al repositorio local, pero no al directorio de trabajo
 (git merge)
-  traer la actializacion ya pedida con fetch al directorio de trabajo
+  traer la actualización ya pedida con fetch al directorio de trabajo
 (git pull)
   Fusiona los comandos fetch y merge
 

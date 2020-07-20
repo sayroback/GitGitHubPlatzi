@@ -1,17 +1,17 @@
- mostrar graficamente la actividad de los cambios en el proyecto
+mostrar gráficamente la actividad de los cambios en el proyecto
  y como utilizar TAG
 
 (git log --all)
-  nos mostrara todo lo ocurrido historicamente
+  nos mostrara todo lo ocurrido históricamente
 (git log --all --graph)
-  Nos muestar graficamente como han funcionado las ramas
+  Nos muestra gráficamente como han funcionado las ramas
 (git log --all --graph --decorate --oneline)
-  lo mismo pero mas bonito
+  lo mismo, pero más bonito
 
-    Truco para terminal linux
+    Truco para terminal Linux
 Para poder guardar comandos repetitivos y largos podemos guardarlos
 y hacerlos llamar con un alias.
-Para eso tomamos el comandos, lo ponemos entre comillas
+Para eso tomamos el comando, lo ponemos entre comillas
 agregamos la palabra reservada alias, nombramos y asignamos el comando:
 alias arbolito="git log --all --graph --decorate --oneline"
 
@@ -23,7 +23,7 @@ en arbolito encontramos identificadores de los commit para agregarle un tag usam
 Para mostar que Tags tenemos en nuestro proyecto
 
 (git push origin --tags)
-//Los tag son utiles en github para enviarlos tenemos que
+//Los tags son útiles en GitHub para enviarlos tenemos que
 hacer (git pull origin master) y luego para enviarlo a github 
 
 (git tag -d nombreDelTag)
