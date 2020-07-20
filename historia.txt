@@ -16,6 +16,7 @@ Mostrar gráficamente la actividad de los cambios en el proyecto y como utilizar
 //Para eso tomamos el comando, lo ponemos entre comillas
 //agregamos la palabra reservada alias, nombramos y asignamos el comando:
 
+
     TAG
 En arbolito encontramos identificadores de los commit
 

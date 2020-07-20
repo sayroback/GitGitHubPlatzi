@@ -1,9 +1,11 @@
   Configurar identificación de Git
+
 (git config --global user.email "user@ mail. com")
 (git config --global user.name "Your Name")
 
 
   Comandos
+
 (git init)
   crear repositorio
 
@@ -36,6 +38,7 @@
 
 
   Reset
+
 (git reset IDALCUALQUEREMOSVOLVER --soft)
   volvermos a los cambios en ese momento, sin eliminarlo del repositorio local
   solo del directorio de trabajo
@@ -63,5 +66,6 @@
 
 
   En VIM
+
 escribimos presionando (Esc + i )
 salimos con (Esc + shift + z + z)
