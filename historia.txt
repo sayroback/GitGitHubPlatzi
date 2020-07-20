@@ -1,33 +1,38 @@
-mostrar gráficamente la actividad de los cambios en el proyecto
- y como utilizar TAG
+Mostrar gráficamente la actividad de los cambios en el proyecto y como utilizar TAG
 
 (git log --all)
-  nos mostrara todo lo ocurrido históricamente
+  Nos mostrara todo lo ocurrido históricamente
+
 (git log --all --graph)
   Nos muestra gráficamente como han funcionado las ramas
-(git log --all --graph --decorate --oneline)
-  lo mismo, pero más bonito
 
-    Truco para terminal Linux
-Para poder guardar comandos repetitivos y largos podemos guardarlos
-y hacerlos llamar con un alias.
-Para eso tomamos el comando, lo ponemos entre comillas
-agregamos la palabra reservada alias, nombramos y asignamos el comando:
-alias arbolito="git log --all --graph --decorate --oneline"
+(git log --all --graph --decorate --oneline)
+  Lo mismo, pero más bonito
+
+(alias arbolito="git log --all --graph --decorate --oneline")
+//Truco para terminal Linux
+//Para poder guardar comandos repetitivos y largos podemos guardarlos
+//y hacerlos llamar con un alias.
+//Para eso tomamos el comando, lo ponemos entre comillas
+//agregamos la palabra reservada alias, nombramos y asignamos el comando:
+
 
     TAG
-en arbolito encontramos identificadores de los commit para agregarle un tag usamos:
+En arbolito encontramos identificadores de los commit
+
 (git tag -a v0.1 -m "COMENTARIO" IDENTIFICADOR)
+  Agregar un tag
 
 (git show-ref --tags)
-Para mostar que Tags tenemos en nuestro proyecto
+  Para mostar que Tags tenemos en nuestro proyecto
 
 (git push origin --tags)
+  Enviar tag a repositorio remoto
 //Los tags son útiles en GitHub para enviarlos tenemos que
-hacer (git pull origin master) y luego para enviarlo a github 
+//hacer (git pull origin master) y luego para enviarlo a github
 
 (git tag -d nombreDelTag)
-eliminar un tag en local
+  Eliminar un tag en local
 
 (git push origin :refs/tags/nombreDelTag)
-eliminar un tag en remoto
+  Eliminar un tag en remoto

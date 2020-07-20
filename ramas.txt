@@ -1,48 +1,59 @@
   Ramas (branches)
 (git branch)
-  ver las ramas existentes
+  Ver las ramas existentes
+
 (git show-branch) y (git show-branch --all)
-  ver la historia de las ramas
+  Ver la historia de las ramas
+
 (gitk)
-  muestra en un software toda la historia de las ramas
+  Muestra en un software toda la historia de las ramas
+
 (git branch nombreDeLaRama)
   Crear una rama
+
 (git checkout nombreDeLaRama)
-  mover a la rama
+  Mover a la rama
+
 (git merge nombreDeLaRama)
-  fusiona las ramas
+
+
+  Fusiona las ramas
 //Practica de fusión de ramas:
-  Antes de intentar fusionar ramas debemos de hacer commit
-  sí existe un conflicto Git agregara las líneas que están chocando
-  con señalamientos de lo que está en cada rama.
-  Manualmente se quitan las señales y se elige que cambio conservar
-  en visual studio aparecen opciones arriba de estas líneas y podemos
-  elegir qué cambios queremos conservar con solo un clic
+//Antes de intentar fusionar ramas debemos de hacer commit
+//sí existe un conflicto Git agregara las líneas que están chocando
+//con señalamientos de lo que está en cada rama.
+//Manualmente se quitan las señales y se elige que cambio conservar
+//en visual studio aparecen opciones arriba de estas líneas y podemos
+//elegir qué cambios queremos conservar con solo un clic
 
   Eliminar ramas
 (git branch -d nombre_rama)
-eliminar una rama de nuestro repositorio local
+  Eliminar una rama de nuestro repositorio local
+
 (git branch -D nombre-rama)
 //En el caso de que esa rama contenga trabajos sin fusionar, el comando anterior nos devolverá un error:
 //error: The branch 'nombre-rama' is not an ancestor of your current HEAD.
 //If you are sure you want to delete it, run 'git branch -D nombre-rama'.
 //Si aún así queremos eliminar esa rama sustituir la d por una D mayuscula
+
 (git push origin :nombredelarama)
-  eliminar la rama en el repositorio remoto
+  Eliminar la rama en el repositorio remoto
 
 (git remote add origin https://github.com/sayroback/CursoGitGitHubPlatzi.git)
   Agregar un origen remoto de nuestros archivos
-   //origin puede llamarse como sea
-   //(git remote -v) nos muestra los orígenes remotos que tenemos en el proyecto
+//origin puede llamarse como sea
+//(git remote -v) nos muestra los orígenes remotos que tenemos en el proyecto
+
 (git pull origin master)
-  debemos mandar a llamar primero el repositorio remoto para poder hacer push
+  Debemos mandar a llamar primero el repositorio remoto para poder hacer push
+
 (git pull origin master --allow-unrelated-histories)
-  si no nos permite hacer pull podemos forzarlo con ese código
+  Si no nos permite hacer pull podemos forzarlo con ese código
+
 (git push origin master)
-  mandar los cambios al repositorio remoto
+  Mandar los cambios al repositorio remoto
 
 //Prueba de conexión a GitHub con SSH
-
-Siempre antes de mandar el master local al repositorio remoto
-usamos pull
-y ahora ya podemos hacer push
+//Siempre antes de mandar el master local al repositorio remoto
+//usamos pull
+//y ahora ya podemos hacer push
