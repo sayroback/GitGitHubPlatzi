@@ -23,6 +23,13 @@ git config --global user.name "Your Name"
   ver los últimos cambios comparados con la versión previa
 (git diff tag1 tag2)
   ver diferencias entre versiones
+  
+  Reset
+(git reset IDALCUALQUEREMOSVOLVER --soft)
+  volvermos a los cambios en ese momento, sin eliminarlo del repositorio local
+  solo del directorio de trabajo
+(git reset IDALCUALQUEREMOSVOLVER --hard)
+  volvermos a los cambios en ese momento
 
   Trabajando con un repositorio remoto
 (git clone url)
