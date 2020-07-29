@@ -1,11 +1,15 @@
 Git stash
+(git stash)
 
 //El stashed nos sirve para guardar cambios para después.
 //Es una lista de estados que nos guarda algunos cambios que
 //hicimos en Staging para poder cambiar de rama sin perder el
 //trabajo que todavía no guardamos en un commit
 
-//Ésto es especialmente útil porque hay veces que no se permite 
-//cambiar de rama, ésto porque tenemos cambios sin guardar, 
-//no siempre es un cambio lo suficientemente bueno como para hacer un commit, 
+//Ésto es especialmente útil porque hay veces que no se permite
+//cambiar de rama, ésto porque tenemos cambios sin guardar,
+//no siempre es un cambio lo suficientemente bueno como para hacer un commit,
 //pero no queremos perder ese código en el que estuvimos trabajando.
+
+(git stash pop)
+  Para regresar los cambios que pusimos en STASH
