@@ -13,3 +13,6 @@ Master 1
 Master 2
 
 Parrafo 4
+
+(git rebase NombreDeLaRama)
+  Fusionar ramas sin que sea perceptibles en el histórico
