@@ -1,0 +1,7 @@
+//Se puede cambiar la rama principal a otra que no sea master
+//Las llaves privadas no tienen extencion
+//Se pueden crear ramas en GitHub que no esten en nuestro repositorio local
+//Se puede conectar tu repositorio local con mas de un repositorio remoto
+**Cuando usa cherry-pick?
+//Fork es generar una copia de un repositorio en GitHub
+//Pull Request solicitar que tus cambios sean aceptado al original
