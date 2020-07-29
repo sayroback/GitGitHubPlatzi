@@ -23,3 +23,5 @@ Configurar las llaves (PC --> GitHub)
 
 (git push origin master)
   Mandamos el repositorio local al remoto //antes hacer commit a los cambios
+
+TODO BIEN!!!
