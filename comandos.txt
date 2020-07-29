@@ -37,7 +37,9 @@
   ver diferencias entre versiones
 
 
-  Reset
+  Reset y Reflog
+(git reflog)
+  Ver la historia absoluta
 
 (git reset IDALCUALQUEREMOSVOLVER --soft)
   volvermos a los cambios en ese momento, sin eliminarlo del repositorio local
@@ -46,6 +48,9 @@
 (git reset IDALCUALQUEREMOSVOLVER --hard)
   volvermos a los cambios en ese momento
 
+(git commit -amend)
+  Remendar un commit
+  //Primero los cambios deben ser añadidos con git add
 
   Trabajando con un repositorio remoto
 
