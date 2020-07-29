@@ -13,3 +13,6 @@ Git stash
 
 (git stash pop)
   Para regresar los cambios que pusimos en STASH
+
+(git stash branch NombreDeLaRama)
+//Se puede guardar los cambios de stash en una rama
