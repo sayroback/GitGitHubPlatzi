@@ -1,0 +1,6 @@
+Clean para limpiar el proyecto de archivos no deseados
+(git clean --dry-run)
+  Revisar que se eliminara
+
+(git clean -f)
+  Eliminar los archivos
