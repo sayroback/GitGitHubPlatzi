@@ -10,7 +10,7 @@ Git stash
 //cambiar de rama, ésto porque tenemos cambios sin guardar,
 //no siempre es un cambio lo suficientemente bueno como para hacer un commit,
 //pero no queremos perder ese código en el que estuvimos trabajando.
-
+///Mas mensajes de prueba
 (git stash pop)
   Para regresar los cambios que pusimos en STASH
 
