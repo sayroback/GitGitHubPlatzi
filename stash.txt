@@ -1,6 +1,6 @@
 Git stash
 (git stash)
-///mensaje de prueba stash
+
 //El stashed nos sirve para guardar cambios para después.
 //Es una lista de estados que nos guarda algunos cambios que
 //hicimos en Staging para poder cambiar de rama sin perder el
