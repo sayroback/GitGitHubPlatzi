@@ -57,3 +57,9 @@
 //Siempre antes de mandar el master local al repositorio remoto
 //usamos pull
 //y ahora ya podemos hacer push
+
+(git branch -r) 
+  Se muestran todas las ramas remotas
+
+(git branch -a)
+se muestran todas las ramas tanto locales como remotas

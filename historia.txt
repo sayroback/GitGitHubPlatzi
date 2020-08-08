@@ -47,15 +47,21 @@ En arbolito encontramos identificadores de los commit
   muestra cuantos commit han hecho cada miembros del equipo 
   hasta los que han sido eliminado
 
-(git shortlog -sn --all --no-merge)
+(git shortlog -sn --all --no-merges)
   muestra cuantos commit han hecho cada miembros quitando los
   eliminados sin los merges
 
 (git config --global alias.stats "COMANDO")
-  por ejemplo: git config --global alias.stats "shortlog -sn --all --no-merge"
+  Creamos alias para instoducir comandos rapidamente
+  por ejemplo: git config --global alias.stats "shortlog -sn --all --no-merges"
 
-git blame ARCHIVO = muestra quien hizo cada cosa linea por linea
-git COMANDO --help = muestra como funciona el comando.
-git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
-**git branch -r **= se muestran todas las ramas remotas
-git branch -a = se muestran todas las ramas tanto locales como remotas
+(git blame -c ARCHIVO)
+  Muestra los ID, quien y cuando hizo los cambios, ademas de los cambios.
+
+(git COMANDO --help)
+  Muestra la documentacion del comando.
+
+(git blame ARCHIVO -Llinea_inicial,linea_final -c)
+  Muestra en un rango de lineas los ID, quien y cuando hizo los cambios, 
+  ademas de los cambios. 
+  Ejemplo: git blame ARCHIVO -L35,50 -c
