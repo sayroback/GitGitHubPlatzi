@@ -41,6 +41,9 @@
 (git reflog)
   Ver la historia absoluta
 
+(git checkout eff544f)
+  Puedes moverte sin realizar ningún cambio al commit exacto de la ref
+
 (git reset IDALCUALQUEREMOSVOLVER --soft)
   volvermos a los cambios en ese momento, sin eliminarlo del repositorio local
   solo del directorio de trabajo

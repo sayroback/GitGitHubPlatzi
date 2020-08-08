@@ -1,0 +1,11 @@
+(git grep PALABRA)
+  Para buscar en que archivos mencino PALABRA
+
+(git grep -n PALABRA)
+  buscar en que archivo y linea menciono PALABRA
+
+(git grep -c la PALABRA)
+  buscar cuantas veces en un archivo menciono PALABRA
+
+(git log -S "PALABRA")
+  Buscar dentro de los commit PALABRA
