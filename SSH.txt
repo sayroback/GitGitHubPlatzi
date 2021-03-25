@@ -21,6 +21,9 @@ Configurar las llaves (PC --> GitHub)
 (git pull origin master)
   Traemos el repositorio remoto a la rama master
 
+(git pull origin master --allow-unrelated-histories)
+  Forzar el pull
+
 (git push origin master)
   Mandamos el repositorio local al remoto //antes hacer commit a los cambios
 
