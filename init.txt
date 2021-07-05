@@ -1,0 +1,6 @@
+git init
+git add README.md\ngit commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:[URL]
+git push -u origin main
+
